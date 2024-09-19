@@ -1,4 +1,5 @@
 numpy
+locale
 pandas
 scikit-learn
 streamlit
