@@ -8,6 +8,7 @@ warnings.filterwarnings('ignore')
 def currenc(currency, grouping=True):
 
     # locale.setlocale( locale.LC_ALL, locale.getlocale())
+
     locale.setlocale(locale.LC_ALL, 'en_CA.UTF-8')
     return locale.currency(currency, symbol=True, grouping= grouping)
 
