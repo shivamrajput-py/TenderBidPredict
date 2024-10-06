@@ -6,11 +6,8 @@ import locale
 import pandas as pd
 warnings.filterwarnings('ignore')
 
-def currenc(currency, grouping=True):
-
-    locale.setlocale(locale.LC_ALL, 'en_US.UTF-8')
-    return locale.currency(currency, symbol=True, grouping= grouping)
-
+def currenc(value, currency_symbol="₹"):
+    return f"{currency_symbol}{value:,.2f}"
 
 # Custom CSS for styling the page
 def local_css(file_name):
