@@ -2,8 +2,8 @@ import numpy as np
 import streamlit as st
 import joblib  # To load saved models
 import warnings
-import locale
 import pandas as pd
+
 warnings.filterwarnings('ignore')
 
 def currenc(value, currency_symbol="₹"):
@@ -14,7 +14,6 @@ def local_css(file_name):
     with open(file_name) as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-# You can also include inline CSS for small customizations
 def set_custom_css():
     st.markdown("""
     
@@ -224,8 +223,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-
-
-
