@@ -1,0 +1,19 @@
+credentials:
+  usernames:
+    shivam:
+      email: shivammraj96@gmail.com
+      logged_in: False # Will be managed automatically
+      name: Shivam Rajput
+      password: vyvsai999 # Will be hashed automatically
+    manish:
+      email: manish@gmail.com
+      logged_in: False # Will be managed automatically
+      name: Manish Negi
+      password: vyvsai999 # Will be hashed automatically
+cookie:
+  expiry_days: 0.01
+  key: us_authenn # Must be string
+  name: us_authenn
+preauthorized:
+  emails:
+  - melsby@gmail.com
