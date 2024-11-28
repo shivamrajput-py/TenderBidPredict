@@ -1,8 +1,7 @@
-numpy
-pandas
-scikit-learn
-streamlit
-joblib
-matplotlib
-plotly
-seaborn
+pandas==2.2.3
+plotly_express==0.4.1
+PyYAML==6.0.1
+PyYAML==6.0.2
+streamlit==1.36.0
+streamlit_authenticator==0.3.1
+

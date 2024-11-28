@@ -1,0 +1,42 @@
+.main-title {
+    font-family: 'Arial', sans-serif;
+    color: #1f77b4;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.info-text {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section:nth-child(2) {
+                    height: 3rem !important;
+                }
+/* FOR ADJUSTING EXTRA SPACE AROUND THE WHOLE PAGE */
+.block-container {
+    padding-top: 23px;
+    padding-bottom: 5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+/* Hide the link button */
+.stApp a:first-child {
+        display: none;
+}
+
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
+
+[data-testid="stToolbar"] {visibility: hidden !important;}
+footer {visibility: hidden !important;}
