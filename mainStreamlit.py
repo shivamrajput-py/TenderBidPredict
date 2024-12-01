@@ -108,10 +108,13 @@ if search_term:
 
         # Layout for Displaying Key Metrics
         left_col, right_col = st.columns(2)
+
+
         with left_col:
+            st.markdown("# ")
             st.markdown(
                 f"""
-                <h3>Contractor: {tend['l1_name']}</h3>
+                <h3 style="font-size: 45px;">Contractor: {tend['l1_name']}</h3>
                 <ul>
                     <li><strong>Total Value of Awarded Tenders:</strong> {currn_INR(total_bidwon)}</li>
                     <li><strong>Total Tenders Won:</strong> {len(DATA)}</li>
@@ -148,5 +151,7 @@ if search_term:
             st.plotly_chart(fig, use_container_width=True)
 
         # Table of Recent Tenders
+        st.markdown(f"""<h6 style="font-size: 11px;">[Use Desktop mode to see the table & Charts Properly""", unsafe_allow_html=True)
+
         st.markdown("### Recent Won Tenders")
         st.markdown(table_index + table_row)
