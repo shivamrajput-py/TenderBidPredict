@@ -114,7 +114,7 @@ if search_term:
             st.markdown("# ")
             st.markdown(
                 f"""
-                <h3 style="font-size: 45px;">Contractor: {tend['l1_name']}</h3>
+                <h3 style="font-size: 45px;">Contractor: {dropbox}</h3>
                 <ul>
                     <li><strong>Total Value of Awarded Tenders:</strong> {currn_INR(total_bidwon)}</li>
                     <li><strong>Total Tenders Won:</strong> {len(DATA)}</li>
@@ -155,3 +155,4 @@ if search_term:
 
         st.markdown("### Recent Won Tenders")
         st.markdown(table_index + table_row)
+
