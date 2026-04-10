@@ -171,12 +171,3 @@ TenderBidPredict can be used as a base for:
 - Styling is customized through [`style.css`](./style.css)
 - Streamlit configuration is kept under [`.streamlit`](./.streamlit)
 
-## Why This Project Stands Out
-
-This repository combines three strong portfolio signals in one codebase:
-
-1. Interactive analytics application development
-2. Real-world data preprocessing and visualization
-3. Structured machine learning experimentation and artifact generation
-
-It is intentionally lightweight to run locally while still showing end-to-end ownership across UI, data work, and ML engineering.
